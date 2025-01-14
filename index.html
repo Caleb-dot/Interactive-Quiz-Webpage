@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #555;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Quiz!</h1>
+    <p>Test your knowledge about fun trivia!</p>
+
+    <form>
+        <!-- Question 1 -->
+        <h2>1. What is the largest planet in our solar system?</h2>
+        <label><input type="radio" name="q1" value="a"> A) Earth</label><br>
+        <label><input type="radio" name="q1" value="b"> B) Mars</label><br>
+        <label><input type="radio" name="q1" value="c"> C) Jupiter</label><br>
+        <label><input type="radio" name="q1" value="d"> D) Saturn</label><br><br>
+
+        <!-- Question 2 -->
+        <h2>2. What is the chemical symbol for water?</h2>
+        <label><input type="radio" name="q2" value="a"> A) CO2</label><br>
+        <label><input type="radio" name="q2" value="b"> B) H2O</label><br>
+        <label><input type="radio" name="q2" value="c"> C) O2</label><br>
+        <label><input type="radio" name="q2" value="d"> D) NaCl</label><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit Quiz</button>
+    </form>
+</body>
+</html>
